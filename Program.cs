@@ -1,4 +1,6 @@
-
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.Extensions.Options;
 using SarabRestaurant.Services;
 using Serilog;
 using Microsoft.AspNetCore.Http.Extensions;
@@ -26,6 +28,29 @@ builder.Host.UseSerilog();
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddLocalization(options =>
+{
+    options.ResourcesPath = "Resources";
+});
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    var supportedCultures = new[]
+    {
+        new CultureInfo("en"),
+        new CultureInfo("uk")
+    };
+
+    options.DefaultRequestCulture = new RequestCulture("en");
+    options.SupportedCultures = supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+
+    options.RequestCultureProviders.Clear();
+    options.RequestCultureProviders.Add(
+        new CookieRequestCultureProvider());
+});
+
+
 builder.Services.Configure<EmailSettings>(
     builder.Configuration.GetSection("EmailSettings"));
 
@@ -40,6 +65,12 @@ builder.Services.AddTransient<IEmailSender>(provider =>
 });
 
 var app = builder.Build();
+
+var localizationOptions = app.Services
+    .GetRequiredService<IOptions<RequestLocalizationOptions>>()
+    .Value;
+
+app.UseRequestLocalization(localizationOptions);
 
 app.Use(async (context, next) =>
 {

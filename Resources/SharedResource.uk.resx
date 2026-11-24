@@ -1,0 +1,657 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Home" xml:space="preserve">
+    <value>Головна</value>
+  </data>
+	<data name="About" xml:space="preserve">
+    <value>Про нас</value>
+  </data>
+	<data name="Menu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+	<data name="Chefs" xml:space="preserve">
+    <value>Наші кухарі</value>
+  </data>
+	<data name="Reservation" xml:space="preserve">
+    <value>Бронювання</value>
+  </data>
+	<data name="Reviews" xml:space="preserve">
+    <value>Відгуки</value>
+  </data>
+	<data name="Contact" xml:space="preserve">
+    <value>Контакти</value>
+  </data>
+	<data name="OrderNow" xml:space="preserve">
+    <value>Замовити</value>
+  </data>
+	<data name="FreeDelivery" xml:space="preserve">
+    <value>БЕЗКОШТОВНА ДОСТАВКА СЬОГОДНІ!</value>
+  </data>
+	<data name="Welcome" xml:space="preserve">
+    <value>Ласкаво просимо до Sarab</value>
+  </data>
+	<data name="Language" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+	<data name="SendEmail" xml:space="preserve">
+    <value>Надіслати електронний лист</value>
+  </data>
+	<data name="EmailAddress" xml:space="preserve">
+    <value>Електронна адреса</value>
+  </data>
+	<data name="Message" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+	<data name="Submit" xml:space="preserve">
+    <value>Надіслати</value>
+  </data>
+	<data name="UploadFile" xml:space="preserve">
+    <value>Завантажити файл</value>
+  </data>
+	<data name="SelectFile" xml:space="preserve">
+    <value>Вибрати файл</value>
+  </data>
+	<data name="ViewFiles" xml:space="preserve">
+    <value>Переглянути файли</value>
+  </data>
+	<data name="UploadedFiles" xml:space="preserve">
+    <value>Завантажені файли</value>
+  </data>
+	<data name="FileName" xml:space="preserve">
+    <value>Назва файлу</value>
+  </data>
+	<data name="Action" xml:space="preserve">
+    <value>Дія</value>
+  </data>
+	<data name="ViewFile" xml:space="preserve">
+    <value>Переглянути файл</value>
+  </data>
+	<data name="UploadNewFile" xml:space="preserve">
+    <value>Завантажити новий файл</value>
+  </data>
+	<data name="NoFiles" xml:space="preserve">
+    <value>Файли ще не завантажено.</value>
+  </data>
+	<data name="QuickLinks" xml:space="preserve">
+    <value>Швидкі посилання</value>
+  </data>
+	<data name="AboutUs" xml:space="preserve">
+    <value>Про нас</value>
+  </data>
+	<data name="OurMenu" xml:space="preserve">
+    <value>Наше меню</value>
+  </data>
+	<data name="Blog" xml:space="preserve">
+    <value>Блог</value>
+  </data>
+	<data name="Page28" xml:space="preserve">
+    <value>Ресторан швидкого харчування №1 у Нью-Йорку</value>
+  </data>
+	<data name="Page29" xml:space="preserve">
+    <value>Смачний</value>
+  </data>
+	<data name="Page30" xml:space="preserve">
+    <value>фастфуд</value>
+  </data>
+	<data name="Page31" xml:space="preserve">
+    <value>для кожної миті</value>
+  </data>
+	<data name="Page32" xml:space="preserve">
+    <value>Відкрийте яскраві смаки страв із добірних інгредієнтів. Від хрустких бургерів до вишуканої піци — насолоджуйтеся кожним шматочком.</value>
+  </data>
+	<data name="Page33" xml:space="preserve">
+    <value>Переглянути меню</value>
+  </data>
+	<data name="Page34" xml:space="preserve">
+    <value>Дивитися нашу історію</value>
+  </data>
+	<data name="Page35" xml:space="preserve">
+    <value>Задоволених клієнтів</value>
+  </data>
+	<data name="Page36" xml:space="preserve">
+    <value>Страв у меню</value>
+  </data>
+	<data name="Page37" xml:space="preserve">
+    <value>Професійних кухарів</value>
+  </data>
+	<data name="Page38" xml:space="preserve">
+    <value>Досвід роботи</value>
+  </data>
+	<data name="Page39" xml:space="preserve">
+    <value>р.</value>
+  </data>
+	<data name="Page40" xml:space="preserve">
+    <value>Гаряча пропозиція</value>
+  </data>
+	<data name="Page41" xml:space="preserve">
+    <value>Знижка 30% сьогодні</value>
+  </data>
+	<data name="Page42" xml:space="preserve">
+    <value>Понад 2 тис. відгуків</value>
+  </data>
+	<data name="Page43" xml:space="preserve">
+    <value>20 хв</value>
+  </data>
+	<data name="Page44" xml:space="preserve">
+    <value>Швидка доставка</value>
+  </data>
+	<data name="Page45" xml:space="preserve">
+    <value>Хрустка смажена курка</value>
+  </data>
+	<data name="Page46" xml:space="preserve">
+    <value>Вишукані бургери</value>
+  </data>
+	<data name="Page47" xml:space="preserve">
+    <value>Авторська піца</value>
+  </data>
+	<data name="Page48" xml:space="preserve">
+    <value>Свіжі роли та врапи</value>
+  </data>
+	<data name="Page49" xml:space="preserve">
+    <value>Картопля фрі з начинкою</value>
+  </data>
+	<data name="Page50" xml:space="preserve">
+    <value>Молочні коктейлі</value>
+  </data>
+	<data name="Page51" xml:space="preserve">
+    <value>Сендвічі на грилі</value>
+  </data>
+	<data name="Page52" xml:space="preserve">
+    <value>Що ми пропонуємо</value>
+  </data>
+	<data name="Page53" xml:space="preserve">
+    <value>Обирайте за</value>
+  </data>
+	<data name="Page54" xml:space="preserve">
+    <value>категорією</value>
+  </data>
+	<data name="Page55" xml:space="preserve">
+    <value>Від соковитих бургерів до екзотичних страв світу — знайдіть улюблене в нашому меню</value>
+  </data>
+	<data name="Page56" xml:space="preserve">
+    <value>Усі страви</value>
+  </data>
+	<data name="Page57" xml:space="preserve">
+    <value>Бургери</value>
+  </data>
+	<data name="Page58" xml:space="preserve">
+    <value>Піца</value>
+  </data>
+	<data name="Page59" xml:space="preserve">
+    <value>Смажена курка</value>
+  </data>
+	<data name="Page60" xml:space="preserve">
+    <value>Врапи</value>
+  </data>
+	<data name="Page61" xml:space="preserve">
+    <value>Десерти</value>
+  </data>
+	<data name="Page62" xml:space="preserve">
+    <value>Курка</value>
+  </data>
+	<data name="Page63" xml:space="preserve">
+    <value>Паста</value>
+  </data>
+	<data name="Page64" xml:space="preserve">
+    <value>Усі</value>
+  </data>
+	<data name="Page65" xml:space="preserve">
+    <value>Років</value>
+  </data>
+	<data name="Page66" xml:space="preserve">
+    <value>майстерності</value>
+  </data>
+	<data name="Page67" xml:space="preserve">
+    <value>Наша історія</value>
+  </data>
+	<data name="Page68" xml:space="preserve">
+    <value>Запрошуємо відвідати</value>
+  </data>
+	<data name="Page69" xml:space="preserve">
+    <value>наш</value>
+  </data>
+	<data name="Page70" xml:space="preserve">
+    <value>ресторан</value>
+  </data>
+	<data name="Page71" xml:space="preserve">
+    <value>Заснований у 2012 році, Sarab починався як невеликий заклад із великою мрією — готувати їжу, яка об’єднує людей. Сьогодні ми з тією ж пристрастю обслуговуємо тисячі задоволених гостей щотижня.</value>
+  </data>
+	<data name="Page72" xml:space="preserve">
+    <value>100% свіжі інгредієнти</value>
+  </data>
+	<data name="Page73" xml:space="preserve">
+    <value>Ми обираємо місцеві продукти з відповідальних джерел. Щодня ретельно відбираємо інгредієнти для максимальної свіжості.</value>
+  </data>
+	<data name="Page74" xml:space="preserve">
+    <value>Відзначені нагородами рецепти</value>
+  </data>
+	<data name="Page75" xml:space="preserve">
+    <value>Наші фірмові рецепти отримували національні кулінарні нагороди п’ять років поспіль.</value>
+  </data>
+	<data name="Page76" xml:space="preserve">
+    <value>Блискавична доставка</value>
+  </data>
+	<data name="Page77" xml:space="preserve">
+    <value>Замовляйте онлайн та отримуйте гарячі свіжі страви менш ніж за 25 хвилин.</value>
+  </data>
+	<data name="Page78" xml:space="preserve">
+    <value>Переглянути повне меню</value>
+  </data>
+	<data name="Page79" xml:space="preserve">
+    <value>Що готуємо</value>
+  </data>
+	<data name="Page80" xml:space="preserve">
+    <value>Наше смачне</value>
+  </data>
+	<data name="Page81" xml:space="preserve">
+    <value>Класичний смеш-бургер</value>
+  </data>
+	<data name="Page82" xml:space="preserve">
+    <value>Королівська Маргарита</value>
+  </data>
+	<data name="Page83" xml:space="preserve">
+    <value>Гостра курка по-нешвільськи</value>
+  </data>
+	<data name="Page84" xml:space="preserve">
+    <value>Врап фахіта</value>
+  </data>
+	<data name="Page85" xml:space="preserve">
+    <value>Шоколадний фондан із Nutella</value>
+  </data>
+	<data name="Page86" xml:space="preserve">
+    <value>Паста з грибами та трюфелем</value>
+  </data>
+	<data name="Page87" xml:space="preserve">
+    <value>Гаряче</value>
+  </data>
+	<data name="Page88" xml:space="preserve">
+    <value>Новинка</value>
+  </data>
+	<data name="Page89" xml:space="preserve">
+    <value>Хіт продажу</value>
+  </data>
+	<data name="Page90" xml:space="preserve">
+    <value>Вибір шефа</value>
+  </data>
+	<data name="Page91" xml:space="preserve">
+    <value>Детальніше</value>
+  </data>
+	<data name="Page92" xml:space="preserve">
+    <value>порція</value>
+  </data>
+	<data name="Page93" xml:space="preserve">
+    <value>До кошика</value>
+  </data>
+	<data name="Page94" xml:space="preserve">
+    <value>Обмежена пропозиція</value>
+  </data>
+	<data name="Page95" xml:space="preserve">
+    <value>Знижка 30% на</value>
+  </data>
+	<data name="Page96" xml:space="preserve">
+    <value>наш фірмовий</value>
+  </data>
+	<data name="Page97" xml:space="preserve">
+    <value>бургер</value>
+  </data>
+	<data name="Page98" xml:space="preserve">
+    <value>комбо</value>
+  </data>
+	<data name="Page99" xml:space="preserve">
+    <value>Години</value>
+  </data>
+	<data name="Page100" xml:space="preserve">
+    <value>Хвилини</value>
+  </data>
+	<data name="Page101" xml:space="preserve">
+    <value>Секунди</value>
+  </data>
+	<data name="Page102" xml:space="preserve">
+    <value>Скористатися пропозицією</value>
+  </data>
+	<data name="Page103" xml:space="preserve">
+    <value>Галерея страв</value>
+  </data>
+	<data name="Page104" xml:space="preserve">
+    <value>Погляньте на наш</value>
+  </data>
+	<data name="Page105" xml:space="preserve">
+    <value>Піца з дров’яної печі</value>
+  </data>
+	<data name="Page106" xml:space="preserve">
+    <value>Солодкі десерти</value>
+  </data>
+	<data name="Page107" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+	<data name="Page108" xml:space="preserve">
+    <value>Далі</value>
+  </data>
+	<data name="Page109" xml:space="preserve">
+    <value>Наш шлях</value>
+  </data>
+	<data name="Page110" xml:space="preserve">
+    <value>Історія</value>
+  </data>
+	<data name="Page111" xml:space="preserve">
+    <value>ресторану</value>
+  </data>
+	<data name="Page112" xml:space="preserve">
+    <value>Розвиток ресторану</value>
+  </data>
+	<data name="Page113" xml:space="preserve">
+    <value>Концепція вишуканої кухні</value>
+  </data>
+	<data name="Page114" xml:space="preserve">
+    <value>Початок сучасного фастфуду</value>
+  </data>
+	<data name="Page115" xml:space="preserve">
+    <value>Розширення по країні</value>
+  </data>
+	<data name="Page116" xml:space="preserve">
+    <value>Кулінарна команда</value>
+  </data>
+	<data name="Page117" xml:space="preserve">
+    <value>Знайомтеся з нашими</value>
+  </data>
+	<data name="Page118" xml:space="preserve">
+    <value>Шеф-кухар</value>
+  </data>
+	<data name="Page119" xml:space="preserve">
+    <value>Майстер гриля</value>
+  </data>
+	<data name="Page120" xml:space="preserve">
+    <value>Кондитер</value>
+  </data>
+	<data name="Page121" xml:space="preserve">
+    <value>Піцайоло</value>
+  </data>
+	<data name="Page122" xml:space="preserve">
+    <value>Години роботи</value>
+  </data>
+	<data name="Page123" xml:space="preserve">
+    <value>Ми відкриті</value>
+  </data>
+	<data name="Page124" xml:space="preserve">
+    <value>для вас</value>
+  </data>
+	<data name="Page125" xml:space="preserve">
+    <value>Понеділок – вівторок</value>
+  </data>
+	<data name="Page126" xml:space="preserve">
+    <value>Середа – четвер</value>
+  </data>
+	<data name="Page127" xml:space="preserve">
+    <value>П’ятниця</value>
+  </data>
+	<data name="Page128" xml:space="preserve">
+    <value>Субота</value>
+  </data>
+	<data name="Page129" xml:space="preserve">
+    <value>Неділя</value>
+  </data>
+	<data name="Page130" xml:space="preserve">
+    <value>Зачинено</value>
+  </data>
+	<data name="Page131" xml:space="preserve">
+    <value>Замовити онлайн</value>
+  </data>
+	<data name="Page132" xml:space="preserve">
+    <value>Доставка гарячих страв за 25 хвилин</value>
+  </data>
+	<data name="Page133" xml:space="preserve">
+    <value>Як нас знайти</value>
+  </data>
+	<data name="Page134" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+	<data name="Page135" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+	<data name="Page136" xml:space="preserve">
+    <value>Електронна пошта</value>
+  </data>
+	<data name="Page137" xml:space="preserve">
+    <value>Що кажуть люди</value>
+  </data>
+	<data name="Page138" xml:space="preserve">
+    <value>Наші клієнти</value>
+  </data>
+	<data name="Page139" xml:space="preserve">
+    <value>Відгуки</value>
+  </data>
+	<data name="Page140" xml:space="preserve">
+    <value>Постійний клієнт</value>
+  </data>
+	<data name="Page141" xml:space="preserve">
+    <value>Фуд-блогер</value>
+  </data>
+	<data name="Page142" xml:space="preserve">
+    <value>Поціновувач їжі</value>
+  </data>
+	<data name="Page143" xml:space="preserve">
+    <value>Корпоративний клієнт</value>
+  </data>
+	<data name="Page144" xml:space="preserve">
+    <value>Забронювати столик</value>
+  </data>
+	<data name="Page145" xml:space="preserve">
+    <value>Оформити</value>
+  </data>
+	<data name="Page146" xml:space="preserve">
+    <value>Контактна інформація</value>
+  </data>
+	<data name="Page147" xml:space="preserve">
+    <value>Телефон для бронювання</value>
+  </data>
+	<data name="Page148" xml:space="preserve">
+    <value>Групові відвідування</value>
+  </data>
+	<data name="Page149" xml:space="preserve">
+    <value>Спеціальні меню для груп від 10 гостей</value>
+  </data>
+	<data name="Page150" xml:space="preserve">
+    <value>Розташування</value>
+  </data>
+	<data name="Page151" xml:space="preserve">
+    <value>Повне ім’я</value>
+  </data>
+	<data name="Page152" xml:space="preserve">
+    <value>Номер телефону</value>
+  </data>
+	<data name="Page153" xml:space="preserve">
+    <value>Кількість гостей</value>
+  </data>
+	<data name="Page154" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+	<data name="Page155" xml:space="preserve">
+    <value>Час</value>
+  </data>
+	<data name="Page156" xml:space="preserve">
+    <value>Особливі побажання</value>
+  </data>
+	<data name="Page157" xml:space="preserve">
+    <value>Підтвердити бронювання</value>
+  </data>
+	<data name="Page158" xml:space="preserve">
+    <value>Новини та оновлення</value>
+  </data>
+	<data name="Page159" xml:space="preserve">
+    <value>Наші останні</value>
+  </data>
+	<data name="Page160" xml:space="preserve">
+    <value>публікації</value>
+  </data>
+	<data name="Page161" xml:space="preserve">
+    <value>Їжа та здоров’я</value>
+  </data>
+	<data name="Page162" xml:space="preserve">
+    <value>Наука про їжу</value>
+  </data>
+	<data name="Page163" xml:space="preserve">
+    <value>Рецепти</value>
+  </data>
+	<data name="Page164" xml:space="preserve">
+    <value>Читати далі</value>
+  </data>
+	<data name="Page165" xml:space="preserve">
+    <value>Залишайтеся на зв’язку</value>
+  </data>
+	<data name="Page166" xml:space="preserve">
+    <value>Підпишіться та отримуйте ексклюзивні</value>
+  </data>
+	<data name="Page167" xml:space="preserve">
+    <value>пропозиції</value>
+  </data>
+	<data name="Page168" xml:space="preserve">
+    <value>Підписатися</value>
+  </data>
+	<data name="Page169" xml:space="preserve">
+    <value>Зв’яжіться з нами</value>
+  </data>
+	<data name="Page170" xml:space="preserve">
+    <value>з нами</value>
+  </data>
+	<data name="Page171" xml:space="preserve">
+    <value>Поговорімо</value>
+  </data>
+	<data name="Page172" xml:space="preserve">
+    <value>Графік роботи</value>
+  </data>
+	<data name="Page173" xml:space="preserve">
+    <value>Ваше ім’я</value>
+  </data>
+	<data name="Page174" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+	<data name="Page175" xml:space="preserve">
+    <value>Загальне запитання</value>
+  </data>
+	<data name="Page176" xml:space="preserve">
+    <value>Кейтеринг та події</value>
+  </data>
+	<data name="Page177" xml:space="preserve">
+    <value>Партнерство</value>
+  </data>
+	<data name="Page178" xml:space="preserve">
+    <value>Медіа та преса</value>
+  </data>
+	<data name="Page179" xml:space="preserve">
+    <value>Надіслати повідомлення</value>
+  </data>
+	<data name="Page180" xml:space="preserve">
+    <value>Напишіть своє повідомлення...</value>
+  </data>
+	<data name="Page181" xml:space="preserve">
+    <value>Введіть електронну адресу...</value>
+  </data>
+	<data name="Page182" xml:space="preserve">
+    <value>Алергії, особливості харчування, особливі події...</value>
+  </data>
+	<data name="Page183" xml:space="preserve">
+    <value>Без спаму, відписатися можна будь-коли.</value>
+  </data>
+	<data name="Page184" xml:space="preserve">
+    <value>Отримайте знижку 15% на перше замовлення та ранній доступ до нових страв</value>
+  </data>
+	<data name="Page185" xml:space="preserve">
+    <value>Столик заброньовано! Незабаром надішлемо підтвердження електронною поштою.</value>
+  </data>
+	<data name="Page186" xml:space="preserve">
+    <value>Повідомлення надіслано! Відповімо протягом двох годин.</value>
+  </data>
+	<data name="Page187" xml:space="preserve">
+    <value>Маєте запитання, відгук або плануєте особливу подію? Будемо раді почути вас.</value>
+  </data>
+	<data name="Page188" xml:space="preserve">
+    <value>Зазвичай відповідаємо протягом двох годин у робочий час.</value>
+  </data>
+	<data name="Page189" xml:space="preserve">
+    <value>Ми раді допомогти вам спланувати чудове відвідування ресторану.</value>
+  </data>
+	<data name="Page190" xml:space="preserve">
+    <value>Забронюйте столик для незабутнього відвідування. На вечори вихідних рекомендуємо бронювати за 24 години.</value>
+  </data>
+	<data name="Page191" xml:space="preserve">
+    <value>1 особа</value>
+  </data>
+	<data name="Page192" xml:space="preserve">
+    <value>2 особи</value>
+  </data>
+	<data name="Page193" xml:space="preserve">
+    <value>3–4 особи</value>
+  </data>
+	<data name="Page194" xml:space="preserve">
+    <value>5–6 осіб</value>
+  </data>
+	<data name="Page195" xml:space="preserve">
+    <value>7–10 осіб</value>
+  </data>
+	<data name="Page196" xml:space="preserve">
+    <value>10+ осіб</value>
+  </data>
+	<data name="Page197" xml:space="preserve">
+    <value>Бер</value>
+  </data>
+	<data name="Page198" xml:space="preserve">
+    <value>Лют</value>
+  </data>
+	<data name="Page199" xml:space="preserve">
+    <value>Січ</value>
+  </data>
+	<data name="Page200" xml:space="preserve">
+    <value>ЇЖА</value>
+  </data>
+	<data name="Page201" xml:space="preserve">
+    <value>99 страв</value>
+  </data>
+	<data name="Page202" xml:space="preserve">
+    <value>24 страв</value>
+  </data>
+	<data name="Page203" xml:space="preserve">
+    <value>18 страв</value>
+  </data>
+	<data name="Page204" xml:space="preserve">
+    <value>15 страв</value>
+  </data>
+	<data name="Page205" xml:space="preserve">
+    <value>12 страв</value>
+  </data>
+	<data name="Page206" xml:space="preserve">
+    <value>20 страв</value>
+  </data>
+	<data name="Page207" xml:space="preserve">
+    <value>12 років досвіду</value>
+  </data>
+	<data name="Page208" xml:space="preserve">
+    <value>8 років досвіду</value>
+  </data>
+	<data name="Page209" xml:space="preserve">
+    <value>10 років досвіду</value>
+  </data>
+	<data name="Page210" xml:space="preserve">
+    <value>9 років досвіду</value>
+  </data>
+	<data name="Page211" xml:space="preserve">
+    <value>24 коментарів</value>
+  </data>
+	<data name="Page212" xml:space="preserve">
+    <value>18 коментарів</value>
+  </data>
+	<data name="Page213" xml:space="preserve">
+    <value>32 коментарів</value>
+  </data>
+</root>

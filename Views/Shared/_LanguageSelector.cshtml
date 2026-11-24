@@ -1,0 +1,34 @@
+﻿@using System.Globalization
+
+@{
+    var currentCulture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+
+    var returnUrl = Context.Request.PathBase.ToString()
+        + Context.Request.Path.ToString()
+        + Context.Request.QueryString.ToString();
+}
+
+<form asp-controller="Home"
+      asp-action="SetLanguage"
+      method="post"
+      class="d-flex align-items-center gap-2">
+
+    <input type="hidden"
+           name="returnUrl"
+           value="@returnUrl" />
+
+    <button type="submit"
+            name="culture"
+            value="en"
+            class="btn btn-sm @(currentCulture == "en" ? "btn-danger" : "btn-outline-secondary")">
+        EN
+    </button>
+
+    <button type="submit"
+            name="culture"
+            value="uk"
+            class="btn btn-sm @(currentCulture == "uk" ? "btn-danger" : "btn-outline-secondary")">
+        UA
+    </button>
+
+</form>

@@ -1,15 +1,15 @@
 ﻿@model List<string>
 
 @{
-    ViewData["Title"] = "Uploaded Files";
+    ViewData["Title"] = Localizer["UploadedFiles"].Value;
 }
 
 <section class="py-5">
     <div class="container">
 
         <div class="text-center mb-4">
-            <h2>Uploaded Files</h2>
-            <p>View files available on the server.</p>
+            <h2>@Localizer["UploadedFiles"]</h2>
+            <p>@Localizer["FilesDescription"]</p>
         </div>
 
         <div class="row justify-content-center">
@@ -25,7 +25,7 @@
                 @if (Model.Count == 0)
                 {
                     <div class="alert alert-info text-center">
-                        No files uploaded yet.
+                        @Localizer["NoFiles"]
                     </div>
                 }
                 else
@@ -33,8 +33,8 @@
                     <table class="table table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th>File Name</th>
-                                <th>Action</th>
+                                <th>@Localizer["FileName"]</th>
+                                <th>@Localizer["Action"]</th>
                             </tr>
                         </thead>
 
@@ -48,7 +48,7 @@
                                            target="_blank"
                                            rel="noopener noreferrer"
                                            class="btn btn-outline-danger btn-sm">
-                                            View File
+                                            @Localizer["ViewFile"]
                                         </a>
                                     </td>
                                 </tr>
@@ -61,7 +61,7 @@
                     <a asp-controller="Files"
                        asp-action="Upload"
                        class="btn btn-danger px-5">
-                        Upload New File
+                        @Localizer["UploadNewFile"]
                     </a>
                 </div>
 

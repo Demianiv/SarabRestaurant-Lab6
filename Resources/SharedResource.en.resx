@@ -1,0 +1,657 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+	<data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+	<data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+	<data name="Chefs" xml:space="preserve">
+    <value>Chefs</value>
+  </data>
+	<data name="Reservation" xml:space="preserve">
+    <value>Reservation</value>
+  </data>
+	<data name="Reviews" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+	<data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+	<data name="OrderNow" xml:space="preserve">
+    <value>Order Now</value>
+  </data>
+	<data name="FreeDelivery" xml:space="preserve">
+    <value>FREE DELIVERY TODAY!</value>
+  </data>
+	<data name="Welcome" xml:space="preserve">
+    <value>Welcome to Sarab</value>
+  </data>
+	<data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+	<data name="SendEmail" xml:space="preserve">
+    <value>Send Us an Email</value>
+  </data>
+	<data name="EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+	<data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+	<data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+	<data name="UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+	<data name="SelectFile" xml:space="preserve">
+    <value>Select file</value>
+  </data>
+	<data name="ViewFiles" xml:space="preserve">
+    <value>View Files</value>
+  </data>
+	<data name="UploadedFiles" xml:space="preserve">
+    <value>Uploaded Files</value>
+  </data>
+	<data name="FileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+	<data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+	<data name="ViewFile" xml:space="preserve">
+    <value>View File</value>
+  </data>
+	<data name="UploadNewFile" xml:space="preserve">
+    <value>Upload New File</value>
+  </data>
+	<data name="NoFiles" xml:space="preserve">
+    <value>No files uploaded yet.</value>
+  </data>
+	<data name="QuickLinks" xml:space="preserve">
+    <value>Quick Links</value>
+  </data>
+	<data name="AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+	<data name="OurMenu" xml:space="preserve">
+    <value>Our Menu</value>
+  </data>
+	<data name="Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+	<data name="Page28" xml:space="preserve">
+    <value>#1 Rated Fast Food Restaurant in New York</value>
+  </data>
+	<data name="Page29" xml:space="preserve">
+    <value>Delicious</value>
+  </data>
+	<data name="Page30" xml:space="preserve">
+    <value>Fast Food</value>
+  </data>
+	<data name="Page31" xml:space="preserve">
+    <value>for Every Moment</value>
+  </data>
+	<data name="Page32" xml:space="preserve">
+    <value>Experience bold flavors crafted from premium ingredients. From crispy burgers to gourmet pizzas - every bite is an adventure worth savoring.</value>
+  </data>
+	<data name="Page33" xml:space="preserve">
+    <value>Explore Menu</value>
+  </data>
+	<data name="Page34" xml:space="preserve">
+    <value>Watch Our Story</value>
+  </data>
+	<data name="Page35" xml:space="preserve">
+    <value>Happy Customers</value>
+  </data>
+	<data name="Page36" xml:space="preserve">
+    <value>Menu Items</value>
+  </data>
+	<data name="Page37" xml:space="preserve">
+    <value>Expert Chefs</value>
+  </data>
+	<data name="Page38" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+	<data name="Page39" xml:space="preserve">
+    <value>yr</value>
+  </data>
+	<data name="Page40" xml:space="preserve">
+    <value>Hot Deal</value>
+  </data>
+	<data name="Page41" xml:space="preserve">
+    <value>30% off today</value>
+  </data>
+	<data name="Page42" xml:space="preserve">
+    <value>2k+ reviews</value>
+  </data>
+	<data name="Page43" xml:space="preserve">
+    <value>20 min</value>
+  </data>
+	<data name="Page44" xml:space="preserve">
+    <value>Fast delivery</value>
+  </data>
+	<data name="Page45" xml:space="preserve">
+    <value>Crispy Fried Chicken</value>
+  </data>
+	<data name="Page46" xml:space="preserve">
+    <value>Gourmet Burgers</value>
+  </data>
+	<data name="Page47" xml:space="preserve">
+    <value>Artisan Pizzas</value>
+  </data>
+	<data name="Page48" xml:space="preserve">
+    <value>Fresh Wraps &amp; Rolls</value>
+  </data>
+	<data name="Page49" xml:space="preserve">
+    <value>Loaded Fries</value>
+  </data>
+	<data name="Page50" xml:space="preserve">
+    <value>Ice Cream Shakes</value>
+  </data>
+	<data name="Page51" xml:space="preserve">
+    <value>Grilled Sandwiches</value>
+  </data>
+	<data name="Page52" xml:space="preserve">
+    <value>What We Offer</value>
+  </data>
+	<data name="Page53" xml:space="preserve">
+    <value>Browse by</value>
+  </data>
+	<data name="Page54" xml:space="preserve">
+    <value>Category</value>
+  </data>
+	<data name="Page55" xml:space="preserve">
+    <value>From sizzling burgers to exotic world cuisines - find your favourite in our menu</value>
+  </data>
+	<data name="Page56" xml:space="preserve">
+    <value>All Items</value>
+  </data>
+	<data name="Page57" xml:space="preserve">
+    <value>Burgers</value>
+  </data>
+	<data name="Page58" xml:space="preserve">
+    <value>Pizza</value>
+  </data>
+	<data name="Page59" xml:space="preserve">
+    <value>Fried Chicken</value>
+  </data>
+	<data name="Page60" xml:space="preserve">
+    <value>Wraps</value>
+  </data>
+	<data name="Page61" xml:space="preserve">
+    <value>Desserts</value>
+  </data>
+	<data name="Page62" xml:space="preserve">
+    <value>Chicken</value>
+  </data>
+	<data name="Page63" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+	<data name="Page64" xml:space="preserve">
+    <value>All</value>
+  </data>
+	<data name="Page65" xml:space="preserve">
+    <value>Years of</value>
+  </data>
+	<data name="Page66" xml:space="preserve">
+    <value>Excellence</value>
+  </data>
+	<data name="Page67" xml:space="preserve">
+    <value>Our Story</value>
+  </data>
+	<data name="Page68" xml:space="preserve">
+    <value>We Invite You to Visit</value>
+  </data>
+	<data name="Page69" xml:space="preserve">
+    <value>Our</value>
+  </data>
+	<data name="Page70" xml:space="preserve">
+    <value>Food Restaurant</value>
+  </data>
+	<data name="Page71" xml:space="preserve">
+    <value>Founded in 2012, Sarab began as a small corner joint with a big dream - to serve food that brings people together. Today we're proud to serve thousands of happy customers every week with the same passion that started it all.</value>
+  </data>
+	<data name="Page72" xml:space="preserve">
+    <value>100% Fresh Ingredients</value>
+  </data>
+	<data name="Page73" xml:space="preserve">
+    <value>We source locally and sustainably. Every ingredient is hand-picked daily for maximum freshness.</value>
+  </data>
+	<data name="Page74" xml:space="preserve">
+    <value>Award-Winning Recipes</value>
+  </data>
+	<data name="Page75" xml:space="preserve">
+    <value>Our signature recipes have won national culinary awards 5 years in a row.</value>
+  </data>
+	<data name="Page76" xml:space="preserve">
+    <value>Lightning-Fast Delivery</value>
+  </data>
+	<data name="Page77" xml:space="preserve">
+    <value>Order online and get hot, fresh food at your door in under 25 minutes, guaranteed.</value>
+  </data>
+	<data name="Page78" xml:space="preserve">
+    <value>View Full Menu</value>
+  </data>
+	<data name="Page79" xml:space="preserve">
+    <value>What's Cooking</value>
+  </data>
+	<data name="Page80" xml:space="preserve">
+    <value>Our Delicious</value>
+  </data>
+	<data name="Page81" xml:space="preserve">
+    <value>Classic Smash Burger</value>
+  </data>
+	<data name="Page82" xml:space="preserve">
+    <value>Margherita Royale</value>
+  </data>
+	<data name="Page83" xml:space="preserve">
+    <value>Nashville Hot Chicken</value>
+  </data>
+	<data name="Page84" xml:space="preserve">
+    <value>Loaded Fajita Wrap</value>
+  </data>
+	<data name="Page85" xml:space="preserve">
+    <value>Nutella Lava Cake</value>
+  </data>
+	<data name="Page86" xml:space="preserve">
+    <value>Truffle Mushroom Pasta</value>
+  </data>
+	<data name="Page87" xml:space="preserve">
+    <value>Hot</value>
+  </data>
+	<data name="Page88" xml:space="preserve">
+    <value>New</value>
+  </data>
+	<data name="Page89" xml:space="preserve">
+    <value>Best Seller</value>
+  </data>
+	<data name="Page90" xml:space="preserve">
+    <value>Chef's Pick</value>
+  </data>
+	<data name="Page91" xml:space="preserve">
+    <value>View Details</value>
+  </data>
+	<data name="Page92" xml:space="preserve">
+    <value>portion</value>
+  </data>
+	<data name="Page93" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+	<data name="Page94" xml:space="preserve">
+    <value>Limited Time Offer</value>
+  </data>
+	<data name="Page95" xml:space="preserve">
+    <value>Get 30% Off</value>
+  </data>
+	<data name="Page96" xml:space="preserve">
+    <value>Our Signature</value>
+  </data>
+	<data name="Page97" xml:space="preserve">
+    <value>Burger</value>
+  </data>
+	<data name="Page98" xml:space="preserve">
+    <value>Meal</value>
+  </data>
+	<data name="Page99" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+	<data name="Page100" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+	<data name="Page101" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+	<data name="Page102" xml:space="preserve">
+    <value>Grab the Deal</value>
+  </data>
+	<data name="Page103" xml:space="preserve">
+    <value>Food Showcase</value>
+  </data>
+	<data name="Page104" xml:space="preserve">
+    <value>Let's See Our</value>
+  </data>
+	<data name="Page105" xml:space="preserve">
+    <value>Wood-Fired Pizza</value>
+  </data>
+	<data name="Page106" xml:space="preserve">
+    <value>Sweet Desserts</value>
+  </data>
+	<data name="Page107" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+	<data name="Page108" xml:space="preserve">
+    <value>Next</value>
+  </data>
+	<data name="Page109" xml:space="preserve">
+    <value>Our Journey</value>
+  </data>
+	<data name="Page110" xml:space="preserve">
+    <value>A History of</value>
+  </data>
+	<data name="Page111" xml:space="preserve">
+    <value>Restaurant</value>
+  </data>
+	<data name="Page112" xml:space="preserve">
+    <value>Evolution of Restaurants</value>
+  </data>
+	<data name="Page113" xml:space="preserve">
+    <value>Fine Dining &amp; The Concept</value>
+  </data>
+	<data name="Page114" xml:space="preserve">
+    <value>Modern Fast Food Origins</value>
+  </data>
+	<data name="Page115" xml:space="preserve">
+    <value>National Expansion</value>
+  </data>
+	<data name="Page116" xml:space="preserve">
+    <value>The Culinary Team</value>
+  </data>
+	<data name="Page117" xml:space="preserve">
+    <value>Meet Our Expert</value>
+  </data>
+	<data name="Page118" xml:space="preserve">
+    <value>Head Chef</value>
+  </data>
+	<data name="Page119" xml:space="preserve">
+    <value>Grill Master</value>
+  </data>
+	<data name="Page120" xml:space="preserve">
+    <value>Pastry Chef</value>
+  </data>
+	<data name="Page121" xml:space="preserve">
+    <value>Pizza Artisan</value>
+  </data>
+	<data name="Page122" xml:space="preserve">
+    <value>Opening Hours</value>
+  </data>
+	<data name="Page123" xml:space="preserve">
+    <value>We're Open</value>
+  </data>
+	<data name="Page124" xml:space="preserve">
+    <value>For You</value>
+  </data>
+	<data name="Page125" xml:space="preserve">
+    <value>Monday - Tuesday</value>
+  </data>
+	<data name="Page126" xml:space="preserve">
+    <value>Wednesday - Thursday</value>
+  </data>
+	<data name="Page127" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+	<data name="Page128" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+	<data name="Page129" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+	<data name="Page130" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+	<data name="Page131" xml:space="preserve">
+    <value>Order Online</value>
+  </data>
+	<data name="Page132" xml:space="preserve">
+    <value>Get hot food delivered in 25 minutes</value>
+  </data>
+	<data name="Page133" xml:space="preserve">
+    <value>Find Us</value>
+  </data>
+	<data name="Page134" xml:space="preserve">
+    <value>Address</value>
+  </data>
+	<data name="Page135" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+	<data name="Page136" xml:space="preserve">
+    <value>Email</value>
+  </data>
+	<data name="Page137" xml:space="preserve">
+    <value>What People Say</value>
+  </data>
+	<data name="Page138" xml:space="preserve">
+    <value>Our Customers</value>
+  </data>
+	<data name="Page139" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+	<data name="Page140" xml:space="preserve">
+    <value>Regular Customer</value>
+  </data>
+	<data name="Page141" xml:space="preserve">
+    <value>Food Blogger</value>
+  </data>
+	<data name="Page142" xml:space="preserve">
+    <value>Food Enthusiast</value>
+  </data>
+	<data name="Page143" xml:space="preserve">
+    <value>Corporate Client</value>
+  </data>
+	<data name="Page144" xml:space="preserve">
+    <value>Book a Table</value>
+  </data>
+	<data name="Page145" xml:space="preserve">
+    <value>Make a</value>
+  </data>
+	<data name="Page146" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+	<data name="Page147" xml:space="preserve">
+    <value>Call for Booking</value>
+  </data>
+	<data name="Page148" xml:space="preserve">
+    <value>Group Dining</value>
+  </data>
+	<data name="Page149" xml:space="preserve">
+    <value>Special menus for 10+ guests</value>
+  </data>
+	<data name="Page150" xml:space="preserve">
+    <value>Location</value>
+  </data>
+	<data name="Page151" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+	<data name="Page152" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+	<data name="Page153" xml:space="preserve">
+    <value>Number of Guests</value>
+  </data>
+	<data name="Page154" xml:space="preserve">
+    <value>Date</value>
+  </data>
+	<data name="Page155" xml:space="preserve">
+    <value>Time</value>
+  </data>
+	<data name="Page156" xml:space="preserve">
+    <value>Special Requests</value>
+  </data>
+	<data name="Page157" xml:space="preserve">
+    <value>Confirm Reservation</value>
+  </data>
+	<data name="Page158" xml:space="preserve">
+    <value>News &amp; Updates</value>
+  </data>
+	<data name="Page159" xml:space="preserve">
+    <value>Our Latest</value>
+  </data>
+	<data name="Page160" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+	<data name="Page161" xml:space="preserve">
+    <value>Food &amp; Health</value>
+  </data>
+	<data name="Page162" xml:space="preserve">
+    <value>Food Science</value>
+  </data>
+	<data name="Page163" xml:space="preserve">
+    <value>Recipes</value>
+  </data>
+	<data name="Page164" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+	<data name="Page165" xml:space="preserve">
+    <value>Stay Connected</value>
+  </data>
+	<data name="Page166" xml:space="preserve">
+    <value>Subscribe &amp; Get Exclusive</value>
+  </data>
+	<data name="Page167" xml:space="preserve">
+    <value>Deals</value>
+  </data>
+	<data name="Page168" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+	<data name="Page169" xml:space="preserve">
+    <value>Get In Touch</value>
+  </data>
+	<data name="Page170" xml:space="preserve">
+    <value>Us</value>
+  </data>
+	<data name="Page171" xml:space="preserve">
+    <value>Let's Talk</value>
+  </data>
+	<data name="Page172" xml:space="preserve">
+    <value>Working Hours</value>
+  </data>
+	<data name="Page173" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+	<data name="Page174" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+	<data name="Page175" xml:space="preserve">
+    <value>General Inquiry</value>
+  </data>
+	<data name="Page176" xml:space="preserve">
+    <value>Catering &amp; Events</value>
+  </data>
+	<data name="Page177" xml:space="preserve">
+    <value>Partnership</value>
+  </data>
+	<data name="Page178" xml:space="preserve">
+    <value>Media &amp; Press</value>
+  </data>
+	<data name="Page179" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+	<data name="Page180" xml:space="preserve">
+    <value>Write your message here...</value>
+  </data>
+	<data name="Page181" xml:space="preserve">
+    <value>Enter your email address...</value>
+  </data>
+	<data name="Page182" xml:space="preserve">
+    <value>Allergies, dietary needs, special occasions...</value>
+  </data>
+	<data name="Page183" xml:space="preserve">
+    <value>No spam, unsubscribe anytime.</value>
+  </data>
+	<data name="Page184" xml:space="preserve">
+    <value>Get 15% off your first order plus early access to new menu items</value>
+  </data>
+	<data name="Page185" xml:space="preserve">
+    <value>Table reserved! We'll confirm via email shortly.</value>
+  </data>
+	<data name="Page186" xml:space="preserve">
+    <value>Message sent! We'll reply within 2 hours.</value>
+  </data>
+	<data name="Page187" xml:space="preserve">
+    <value>Have a question, feedback, or want to plan a special event? We'd love to hear from you.</value>
+  </data>
+	<data name="Page188" xml:space="preserve">
+    <value>We typically respond within 2 hours during business hours.</value>
+  </data>
+	<data name="Page189" xml:space="preserve">
+    <value>We're happy to help you plan the perfect dining experience.</value>
+  </data>
+	<data name="Page190" xml:space="preserve">
+    <value>Reserve your table for a memorable dining experience. We recommend booking 24 hours in advance for weekend evenings.</value>
+  </data>
+	<data name="Page191" xml:space="preserve">
+    <value>1 Person</value>
+  </data>
+	<data name="Page192" xml:space="preserve">
+    <value>2 People</value>
+  </data>
+	<data name="Page193" xml:space="preserve">
+    <value>3 - 4 People</value>
+  </data>
+	<data name="Page194" xml:space="preserve">
+    <value>5 - 6 People</value>
+  </data>
+	<data name="Page195" xml:space="preserve">
+    <value>7 -10 People</value>
+  </data>
+	<data name="Page196" xml:space="preserve">
+    <value>10+ People</value>
+  </data>
+	<data name="Page197" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+	<data name="Page198" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+	<data name="Page199" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+	<data name="Page200" xml:space="preserve">
+    <value>FOOD</value>
+  </data>
+	<data name="Page201" xml:space="preserve">
+    <value>99 items</value>
+  </data>
+	<data name="Page202" xml:space="preserve">
+    <value>24 items</value>
+  </data>
+	<data name="Page203" xml:space="preserve">
+    <value>18 items</value>
+  </data>
+	<data name="Page204" xml:space="preserve">
+    <value>15 items</value>
+  </data>
+	<data name="Page205" xml:space="preserve">
+    <value>12 items</value>
+  </data>
+	<data name="Page206" xml:space="preserve">
+    <value>20 items</value>
+  </data>
+	<data name="Page207" xml:space="preserve">
+    <value>12 years experience</value>
+  </data>
+	<data name="Page208" xml:space="preserve">
+    <value>8 years experience</value>
+  </data>
+	<data name="Page209" xml:space="preserve">
+    <value>10 years experience</value>
+  </data>
+	<data name="Page210" xml:space="preserve">
+    <value>9 years experience</value>
+  </data>
+	<data name="Page211" xml:space="preserve">
+    <value>24 Comments</value>
+  </data>
+	<data name="Page212" xml:space="preserve">
+    <value>18 Comments</value>
+  </data>
+	<data name="Page213" xml:space="preserve">
+    <value>32 Comments</value>
+  </data>
+</root>
