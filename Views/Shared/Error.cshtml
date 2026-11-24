@@ -1,25 +1,208 @@
-﻿@model ErrorViewModel
-@{
-    ViewData["Title"] = "Error";
-}
+﻿@using Microsoft.Extensions.Localization
+@using SarabRestaurant
+<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sarab">
+    <meta name="description" content="Sarab - Fast Food & Restaurant HTML Template">
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+    <title>Sarab - Fast Food & Restaurant HTML Template</title>
 
-@if (Model.ShowRequestId)
-{
-    <p>
-        <strong>Request ID:</strong> <code>@Model.RequestId</code>
-    </p>
-}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+          rel="stylesheet" />
 
-<h3>Development Mode</h3>
-<p>
-    Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
-</p>
-<p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
-    and restarting the app.
-</p>
+    <!-- Bootstrap 5.3 -->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- AOS Animate on Scroll -->
+    <link href="~/lib/aos/aos.css" rel="stylesheet" />
+
+    <!-- Swiper -->
+    <link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link href="~/sarab/css/all.min.css" rel="stylesheet" />
+
+    <!-- Magnific Popup -->
+    <link href="~/lib/magnific-popup/magnific-popup.min.css" rel="stylesheet" />
+
+    <!-- Sarab Main Styles -->
+    <link href="~/sarab/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ============================================================
+       TOP BAR
+       ============================================================ -->
+    <div id="topbar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <div class="top-contact d-flex flex-wrap">
+                    <span><i class="fas fa-phone-alt"></i>+1 (800) 123-4567</span>
+                    <span><i class="fas fa-envelope"></i>hello@@sarabfood.com</span>
+                    <span><i class="fas fa-map-marker-alt"></i>42 Flavor Street, NY</span>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <span class="ttag"><i class="fas fa-fire me-1"></i>@Localizer["FreeDelivery"]</span>
+                    <div class="tsoc">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+    @await Component.InvokeAsync("Navbar")
+    <!-- ============================================================
+       FIX 1 � SEARCH OVERLAY POPUP
+       ============================================================ -->
+    <div id="searchOv">
+        <button class="sovclose" id="searchClose"><i class="fas fa-times"></i></button>
+        <div class="sovbox">
+            <h4>What are you craving today?</h4>
+            <div class="sovinput">
+                <input type="text" id="searchInput" placeholder="Search burgers, pizza, chicken..." autocomplete="off" />
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <!-- Categories inside search box -->
+            <div class="sovcats">
+                <div class="sovcat active" data-cat="all">
+                    <img src="/sarab/img/menu/1.jpg" alt="" />All Items
+                </div>
+                <div class="sovcat" data-cat="burgers">
+                    <img src="/sarab/img/menu/1.jpg" alt="" />Burgers
+                </div>
+                <div class="sovcat" data-cat="pizza">
+                    <img src="/sarab/img/menu/2.jpg" alt="" />Pizza
+                </div>
+                <div class="sovcat" data-cat="chicken">
+                    <img src="/sarab/img/menu/3.jpg" alt="" />Chicken
+                </div>
+                <div class="sovcat" data-cat="wraps">
+                    <img src="/sarab/img/menu/4.jpg" alt="" />Wraps
+                </div>
+                <div class="sovcat" data-cat="pasta">
+                    <img src="/sarab/img/menu/5.jpg" alt="" />Pasta
+                </div>
+                <div class="sovcat" data-cat="desserts">
+                    <img src="/sarab/img/menu/6.jpg" alt="" />Desserts
+                </div>
+            </div>
+            <div class="sovtrend">
+                <p><i class="fas fa-fire me-1" style="color:var(--secondary);"></i>Trending Searches</p>
+                <span class="ttag">Smash Burger</span>
+                <span class="ttag">Nashville Chicken</span>
+                <span class="ttag">Truffle Pizza</span>
+                <span class="ttag">Lava Cake</span>
+                <span class="ttag">Loaded Fries</span>
+                <span class="ttag">Mango Shake</span>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================
+       HERO
+       ============================================================ -->
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="fnm">Sar<span>ab</span></div>
+                    <p class="fdesc">We bring the world's finest flavors together in a fast, friendly, and affordable experience. Every meal crafted with love.</p>
+                    <div class="fsoc">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-2">
+                    <div class="ftit">@Localizer["QuickLinks"]</div>
+                    <ul class="flinks ps-0">
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i>@Localizer["Home"]</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i>@Localizer["AboutUs"]</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>@Localizer["OurMenu"]</a></li>
+                        <li><a href="#reservation"><i class="fas fa-chevron-right"></i>@Localizer["Reservation"]</a></li>
+                        <li><a href="#blog"><i class="fas fa-chevron-right"></i>@Localizer["Blog"]</a></li>
+                        <li><a href="#contact-section"><i class="fas fa-chevron-right"></i>@Localizer["Contact"]</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-lg-2">
+                    <div class="ftit">Our Menu</div>
+                    <ul class="flinks ps-0">
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Burgers</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Pizza</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Fried Chicken</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Wraps &amp; Rolls</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Pasta</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i>Desserts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ftit">Get In Touch</div>
+                    <div class="fci">
+                        <div class="fciico"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="fciinfo"><strong>Address</strong>42 Flavor Street, Manhattan, NY 10001</div>
+                    </div>
+                    <div class="fci">
+                        <div class="fciico"><i class="fas fa-phone-alt"></i></div>
+                        <div class="fciinfo"><strong>Phone</strong>+1 (800) 123-4567</div>
+                    </div>
+                    <div class="fci">
+                        <div class="fciico"><i class="fas fa-envelope"></i></div>
+                        <div class="fciinfo"><strong>Email</strong>hello@@sarabfood.com</div>
+                    </div>
+                    <div class="fci">
+                        <div class="fciico"><i class="fas fa-clock"></i></div>
+                        <div class="fciinfo"><strong>Hours</strong>Wed - Sun: 09 AM - 11 PM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fbot">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                    <p>&copy 2026 <span>Sarab Restaurant</span>. All Rights Reserved by <a target="_blank" class="mx-0 fw-bold text-success" href="https://bestwpware.com/">Bestwpware</a>. Made with <span><i class="fas fa-heart"></i></span>  <br>Distributed by <a target="_blank" class="mx-0 fw-bold text-success" href="https://themewagon.com">ThemeWagon</a></p>
+                    <div><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookies</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating cart -->
+    <!-- <div class="cartfl"><i class="fas fa-shopping-cart"></i><span>My Cart</span><div class="ccount" id="cartCount">0</div></div> -->
+    <!-- Back to top -->
+    <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+
+    <!-- jQuery -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="~/lib/aos/aos.js"></script>
+
+    <!-- Swiper -->
+    <script src="~/lib/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Magnific Popup -->
+    <script src="~/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Sarab Main JS -->
+    <script src="~/sarab/js/main.js"></script>
+
+</body>
+</html>
